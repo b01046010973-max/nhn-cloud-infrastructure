@@ -10,6 +10,7 @@
 ##실습<br>
  (1) 전체 인스턴스 목록<br><br>
 <img width="400" height="150" alt="1" src="https://github.com/user-attachments/assets/b8eda718-ec24-4e5f-a335-b6dfc79c28b7" /><br><br><br>
+ - 인프라 구성: 외부 접속용 Bastion 서버와 내부망 전용 서버 분리 <br><br><br>
 
  (2) Private 서버의 보안 그룹 설정<br><br>
 <img width="400" height="150" alt="2" src="https://github.com/user-attachments/assets/2bca64e4-ef63-44ab-858d-6220b8bb636b" />
