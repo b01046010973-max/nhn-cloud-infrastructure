@@ -13,7 +13,7 @@
 
  (2) Private 서버의 보안 그룹 설정<br><br>
 <img width="400" height="150" alt="2" src="https://github.com/user-attachments/assets/2bca64e4-ef63-44ab-858d-6220b8bb636b" />
- - 전체 허용(0.0.0.0/0)이 아니라 지정된 통로(10.0.1.0/24)로만 들어오게 설정
+ - 전체 허용(0.0.0.0/0)이 아니라 지정된 통로(10.0.1.0/24)로만 들어오게 설정<br>
 
  (3) MobaXterm 접속 과정<br><br>
  <img width="400" height="150" alt="3-1" src="https://github.com/user-attachments/assets/32394a2b-7714-4b0c-b1c0-8ef1ed21a5a0" /><br>
