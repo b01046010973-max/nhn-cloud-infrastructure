@@ -16,7 +16,7 @@
  - 전체 허용(0.0.0.0/0)이 아니라 지정된 통로(10.0.1.0/24)로만 들어오게 설정<br><br><br>
 
  (3) MobaXterm 접속 과정<br><br>
- <img width="400" height="150" alt="3-1" src="https://github.com/user-attachments/assets/32394a2b-7714-4b0c-b1c0-8ef1ed21a5a0" /><br>
+ <img width="500" height="250" alt="3-1" src="https://github.com/user-attachments/assets/32394a2b-7714-4b0c-b1c0-8ef1ed21a5a0" /><br>
 <img width="400" height="150" alt="3-2" src="https://github.com/user-attachments/assets/efd3bfb6-ddd6-4756-b6d7-e7eaac80840d" /><br>
 <img width="400" height="150" alt="3-3" src="https://github.com/user-attachments/assets/5e7e2018-3b72-48cf-957b-309444c2b4a4" /><br>
 
