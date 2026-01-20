@@ -8,7 +8,7 @@
 3. **SSH Tunneling/Routing**: 내부 라우팅 설정을 통해 Public -> Private Subnet 간의 SSH(Port 22) 통신 허용
 
 ##실습
-<img width="841" height="370" alt="private에 접근" src="https://github.com/user-attachments/assets/522b015c-c571-473e-98b7-47811615ff79" />
+<img width="400" height="150" alt="private에 접근" src="https://github.com/user-attachments/assets/522b015c-c571-473e-98b7-47811615ff79" />
 
 -
 
