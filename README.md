@@ -2,7 +2,7 @@
 ## Project1 - 서로 다른 Subnet 간 서버 접근
 
   <img width="500" height="300" alt="서로다른subnet1" src="https://github.com/user-attachments/assets/4829f415-382d-47da-a90e-1796bcba4b71" />
-  - **목표**: Public Subnet에 위치한 점프 호스트(MobaXterm)를 통해 외부 연결이 차단된 Private Subnet 내 서버에 안전하게 접근하는 환경 구축<br>
+  <br>- **목표**: Public Subnet에 위치한 점프 호스트(MobaXterm)를 통해 외부 연결이 차단된 Private Subnet 내 서버에 안전하게 접근하는 환경 구축<br>
 <br><br>
 
 
