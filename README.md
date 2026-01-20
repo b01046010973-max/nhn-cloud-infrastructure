@@ -10,7 +10,7 @@
 1. **네트워크 격리**: 외부 인터넷과 단절된 Private Subnet에 floating IP를 부여하지 않은 instance 생성
 2. **점프 호스트 활용**: Public Subnet의 서버에만 Floating IP를 부여하여 외부 진입점으로 설정
 3. **SSH Tunneling/Routing**: 내부 라우팅 설정을 통해 Public -> Private Subnet 간의 SSH(Port 22) 통신 허용
-
+<br>
 @실행<br>
  (1) 전체 인스턴스 목록<br><br>
 <img width="500" height="250" alt="1" src="https://github.com/user-attachments/assets/b8eda718-ec24-4e5f-a335-b6dfc79c28b7" /><br>
