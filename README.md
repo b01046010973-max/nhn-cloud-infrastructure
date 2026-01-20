@@ -1,17 +1,16 @@
 # nhn-cloud-infrastructure
-# NHN Cloud 인프라 구축 프로젝트
+## 🛠 실습 과제: 서로 다른 Subnet 간 서버 접근 (Access Control)
+- **목표**: Public Subnet에 위치한 점프 호스트(Bastion Host)를 통해 외부 연결이 차단된 Private Subnet 내 서버에 안전하게 접근하는 환경 구축
 
-보안과 효율적인 자원 관리를 목표로 한 클라우드 인프라 설계 실습
+##해결 방법
+1. **네트워크 격리**: 외부 인터넷과 단절된 Private Subnet에 내부용 서버(Web/DB) 생성
+2. **점프 호스트 활용**: Public Subnet의 서버에만 Floating IP를 부여하여 외부 진입점으로 설정
+3. **SSH Tunneling/Routing**: 내부 라우팅 설정을 통해 Public -> Private Subnet 간의 SSH(Port 22) 통신 허용
 
-## 문제
-- 외부의 무분별한 접근 차단 및 필수 서비스(SSH, Web)의 안전한 노출
-- 한정된 Public IP 자원의 효율적 배분
+##실습
+<img width="841" height="370" alt="private에 접근" src="https://github.com/user-attachments/assets/522b015c-c571-473e-98b7-47811615ff79" />
 
-## 해결
-- **네트워크 분리**: VPC 내 Public/Private Subnet 구분 설계
-- **통신 제어**: Internet Gateway 및 라우팅 테이블 직접 설정
-- **보안 최적화**: Security Group을 통한 화이트리스트 기반 트래픽 제어
+-
 
-## 결과
-- Floating IP 활용으로 보안성이 강화된 인스턴스 환경 구축
-- 클라우드 네트워크 트래픽 흐름에 대한 실질적 이해도 확보
+-   Public 서버에서 `ssh` 명령어로 Private 서버(10.0.2.x)에 접속 성공한 터미널 화면
+- **[파일: 실습2 - 14p]**: 인스턴스 리스트에서 Floating IP가 하나만 할당된 전체 현황 화면
